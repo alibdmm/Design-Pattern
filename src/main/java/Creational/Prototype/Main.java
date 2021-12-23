@@ -11,7 +11,7 @@ public class Main {
 
         }
         if (artController == artController2){
-            System.out.println("truess");
+            System.out.println("truessss");
         }
         System.out.println(artController2.fName);
     }

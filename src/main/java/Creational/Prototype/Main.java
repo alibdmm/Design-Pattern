@@ -8,9 +8,10 @@ public class Main {
             artController2 = artController.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
+
         }
         if (artController == artController2){
-            System.out.println("true");
+            System.out.println("truess");
         }
         System.out.println(artController2.fName);
     }

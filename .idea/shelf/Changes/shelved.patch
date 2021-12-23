@@ -1,0 +1,19 @@
+Index: src/main/java/Creational/Prototype/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Creational.Prototype;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        ArtController artController = new ArtController(\"testName\", \"testLName\");\r\n        ArtController artController2 = null;\r\n        try {\r\n            artController2 = artController.clone();\r\n        } catch (CloneNotSupportedException e) {\r\n            e.printStackTrace();\r\n\r\n        }\r\n        if (artController == artController2){\r\n            System.out.println(\"truess\");\r\n        }\r\n        System.out.println(artController2.fName);\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Creational/Prototype/Main.java b/src/main/java/Creational/Prototype/Main.java
+--- a/src/main/java/Creational/Prototype/Main.java	(revision 7acd91b305fba79170ad00b7f86419ebcdb633f9)
++++ b/src/main/java/Creational/Prototype/Main.java	(date 1640290681173)
+@@ -11,7 +11,7 @@
+ 
+         }
+         if (artController == artController2){
+-            System.out.println("truess");
++            System.out.println("truessss");
+         }
+         System.out.println(artController2.fName);
+     }
